@@ -1,0 +1,38 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: popins-rengular;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+html {
+  font-family: "popins-regular", sans-serif;
+  font-size: 62.5%;
+  box-sizing: inherit;
+}
+body {
+  font-size: 1.6rem;
+  box-sizing: inherit;
+}
+:root {
+  --color-primary: #04091e;
+}
