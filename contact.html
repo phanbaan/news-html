@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- -----------add file style css----------- -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>News</title>
+  </head>
+  <body>
+    <!-- ------------start header-------------- -->
+    <header class="sub-header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo-box">
+            <a href="index.html"
+              ><img src="./assets/images/logo.png" alt="" class="logo"
+            /></a>
+          </div>
+          <div class="menu" id="menu">
+            <div class="menu__close" onclick="hiddenMenu()">
+              <img src="./assets/images/cancel.png" alt="" />
+            </div>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="index.html" class="nav__link">home</a>
+              </li>
+              <li class="nav__item">
+                <a href="about.html" class="nav__link">about</a>
+              </li>
+              <li class="nav__item">
+                <a href="courses.html" class="nav__link">course</a>
+              </li>
+              <li class="nav__item">
+                <a href="blog-detail.html" class="nav__link">blog</a>
+              </li>
+              <li class="nav__item">
+                <a href="contact.html" class="nav__link">contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu__icon" id="menu__icon" onclick="showMenu()">
+            <img src="./assets/images/menu.png" alt="" />
+          </div>
+        </nav>
+        <div class="header-content">
+          <h1 class="heading__secondary">Contact</h1>
+        </div>
+      </div>
+    </header>
+    <!-- ------------end header-------------- -->
+    <!-- ------------start contact map--------------- -->
+    <div class="location">
+      <div class="container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.4612657700086!2d107.1069775141136!3d10.384890969139693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317571d0eee42969%3A0x9c6e725e8e4d05d7!2zQ2jDrSBMaW5o!5e0!3m2!1svi!2s!4v1622560464417!5m2!1svi!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+    <!-- ------------end contact map--------------- -->
+    <!-- ------------end contact content--------------- -->
+    <div class="contact-us">
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-content__item">
+            <ul class="contact__list">
+              <li class="contact__item">
+                <h3>Thành phố: vũng tàu</h3>
+                <p class="text">khu đổi 2, đường bình dã</p>
+              </li>
+              <li class="contact__item">
+                <h3>+840978999999</h3>
+                <p class="text">Time: monday to saturday ,7AM to 5PM</p>
+              </li>
+              <li class="contact__item">
+                <h3>phanbaan.it@gmail.com</h3>
+                <p class="text">email us your query</p>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-content__item">
+            <div class="contact-form">
+              <form action="" class="form">
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Enter your name"
+                  required
+                />
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Enter your email"
+                  required
+                />
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Enter your subject"
+                  required
+                />
+                <textarea class="form__input" rows="10"></textarea>
+                <button class="btn-text btn-text--secondary">
+                  Send message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------end contact content--------------- -->
+
+    <!-- -----------start footer--------- -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer__title">About us</div>
+          <div class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+            quam<br />
+            nemo quidem reprehenderit laborum natus, cumque quibusdam
+            dignissimos amet debitis.
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p class="text">
+          Copyright &copy; 2020-2021 Freepik Company S.L. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- -----------end footer--------- -->
+
+    <!-- ---------add file main.js-------- -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
